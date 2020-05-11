@@ -10,8 +10,8 @@
     "build:styles": "node tools/styles.js",
     "build:scripts": "node tools/scripts.js",
     "build:site": "hugo",
-    "skip-build:service-worker": "node tools/workbox.js",
-    "skip-build:minify": "node tools/minify.js",
+    "build:service-worker": "node tools/workbox.js",
+    "build:minify": "node tools/minify.js",
     "skip-build:pdf": "node tools/pdf.js",
     "build": "run-s build:*"
   },
