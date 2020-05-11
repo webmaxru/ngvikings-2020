@@ -1,160 +1,82 @@
-baseurl = "/"
-title = "Conference name"
-canonifyurls = true
-theme = "hugo-conference"
-GoogleAnalytics = ""
+baseURL = "/"
+languageCode = "en"
+title = "ngVikings 2020"
+
+# Theme
+theme = "ngvikings-2020"
+
+# Params
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-7105068-12"
 
 [params]
-Name = "Conference name"
-Description = "Conference description"
-Date = "November 15"
-Price = "Only $100"
-Venue = "Coco Bongo"
-Address = "Boulevard Kukulcan, 30"
-City = "Cancún"
-State = "Quintana"
-Images = [
-  "/img/badge.jpg"
-]
-GoogleMapsKey = "my-secret-maps-key"
-Sections = [
-  "about",
-  "location",
-  "speakers",
-  "schedule",
-  "sponsors",
-  "partners"
-]
+    title = "ngVikings 2020 - The legendary Angular conference goes Online. May 25-26th. Free Angular conference."
+    date = "2020-05-25"
+    description = "Having Angular team members, Google Developer Experts and legendary international speakers onboard, ngVikings Conference guarantees an excellent program: fresh, technically deep and 100% useful."
+    images = ["/images/social-share.png"]
+    email = "contact@ngvikings.org"
+    keywords = "event, angular, gde, google, programming, android, chrome, polymer, developers, web, cloud"
+    copyright = "ngVikings Team"
+    cfpUrl = "http://bit.ly/ngvikings-2020-cfp"
+    subscriptionUrl = "http://eepurl.com/dlzDe9"
+    appleTouchIcon = "/manifest/icon-large.png"
+    favicon32 = "/manifest/icon-large.png"
+    favicon16 = "/manifest/icon-large.png"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#b4450e"
+    googleWebmasterKey = ""
 
-  [params.Titles]
-  about = "About"
-  location = "Location"
-  speakers = "Speakers"
-  schedule = "Schedule"
-  sponsors = "Sponsors"
-  partners = "Partners"
-  contact = "Contact"
+[params.logos]
+    jumbo = "/images/logos/logo.png"
+    header = "/images/logos/logo.png"
+    footer = "/images/logos/logo.png"
 
-  [params.CallToAction]
-  text = "Register now!"
-  link = "http://register.example.com"
+[menu]
+[[menu.main]]
+    identifier = "ng-girls"
+    name = "ng-Girls"
+    url = "https://ng-girls.org/"
+    weight = 190
+    external = true
 
-  [params.ForkButton]
-  repository = "https://github.com/jweslley/hugo-conference/"
+[markup.goldmark.renderer]
+unsafe= true
 
-  [[params.Sponsors]]
-  name = "Hugo"
-  logo = "/img/hugo.png"
-  url = "http://gohugo.io"
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "gb"
 
-  [[params.Partners]]
-  name = "Hugo"
-  logo = "/img/hugo.jpg"
-  url = "https://gohugo.io"
+[languages.fr]
+    weight = 2
+    languageName = "fr"
 
-  [[params.Partners]]
-  name = "BrazilJS"
-  logo = "/img/partner.png"
-  url = "http://braziljs.org"
 
-  [[params.Schedule]]
-  name = "Check-in / Breakfast"
-  time = "9h00"
+[taxonomies]
+  tag = "tags"
 
-  [[params.Schedule]]
-  name = "Linus Torvalds"
-  photo = "/img/speaker.jpg"
-  bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-  company = "Linux Foundation"
-
-    [params.Schedule.link]
-    href = "http://twitter.com/linus"
-    text = "@linus"
-
-    [params.Schedule.presentation]
-    title = "Digging into a Linux Kernel"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    time = "10h00"
-
-  [[params.Schedule]]
-  name = "Bill Gates"
-  photo = "/img/speaker.jpg"
-  bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-  company = "Microsoft"
-
-    [params.Schedule.link]
-    href = "http://github.com/billy95"
-    text = "@billy95"
-
-    [params.Schedule.presentation]
-    title = "Introducing Windows 12"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    time = "11h00"
-
-  [[params.Schedule]]
-  name = "Lunch"
-  time = "12h00"
-
-  [[params.Schedule]]
-  name = "Chuck Norris"
-  photo = "/img/speaker.jpg"
-  bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-  company = "Delta Command"
-
-    [params.Schedule.link]
-    href = "http://twitter.com/littlechuck"
-    text = "@littlechuck"
-
-    [params.Schedule.presentation]
-    title = "How to kill a elephant with one finger"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    time = "13h00"
-
-  [[params.Schedule]]
-  name = "Steve Jobs"
-  photo = "/img/speaker.jpg"
-  bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-  company = "Apple, Inc."
-
-    [params.Schedule.link]
-    href = "http://github.com/stevie"
-    text = "@stevie"
-
-    [params.Schedule.presentation]
-    title = "Presenting iPad"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    time = "14h00"
-
-  [[params.Schedule]]
-  name = "Coffee-break"
-  time = "15h00"
-
-  [[params.Schedule]]
-  name = "Mark Zuckerberg"
-  photo = "/img/speaker.jpg"
-  bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-  company = "Facebook"
-
-    [params.Schedule.link]
-    href = "http://twitter.com/zuck"
-    text = "@zuck"
-
-    [params.Schedule.presentation]
-    title = "Revealing Facebook Secrets"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    time = "16h00"
-
-  [[params.Schedule]]
-  name = "Steve Wozniak"
-  photo = "/img/speaker.jpg"
-  bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-  company = "Apple, Inc."
-
-    [params.Schedule.link]
-    href = "http://twitter.com/woz"
-    text = "@woz"
-
-    [params.Schedule.presentation]
-    title = "Why do I prefer Android over iPhone"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    time = "17h00"
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false

@@ -1,15 +1,18 @@
+/resources/
+public/
+node_modules/
+.firebase/
+.idea/
+.vscode/
+yarn-error.log
 
-# Created by https://www.gitignore.io/api/hugo
-# Edit at https://www.gitignore.io/?templates=hugo
 
-### Hugo ###
-# Generated files by hugo
-/public/
-/resources/_gen/
+static/main.js
+static/schedule/schedule*.pdf
+*-1140.jpg
+*-960.jpg
+*-720.jpg
+*-540.jpg
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
-
-# End of https://www.gitignore.io/api/hugo
+/static/styles/*.css
+*.webp

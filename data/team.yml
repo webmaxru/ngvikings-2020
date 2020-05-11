@@ -1,0 +1,12 @@
+- title: Maxim Salnikov
+  type: code
+  subtitle: Tech Support
+  photo: maxim_salnikov.jpg
+  socials:
+    - link: 'https://www.twitter.com/webmaxru'
+      name: Twitter
+    - link: 'https://github.com/webmaxru'
+      name: Github
+    - link: 'https://www.linkedin.com/in/webmax/'
+      name: Linkedin
+  key: maxim_salnikov
