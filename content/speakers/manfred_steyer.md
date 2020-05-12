@@ -1,17 +1,21 @@
 ---
 key: manfred_steyer
 name: Manfred Steyer
-id: 0yzdv6FVFYZWXmWird77HqsY49c2
-feature: false
-company: Microsoft
+id: manfred_steyer
+feature: true
+company: ANGULARarchitects.io
 city: 'Gratz, Austria'
 photoURL: /images/speakers/manfred_steyer.jpg
 socials:
   - icon: twitter
-    link: 'https://twitter.com/manekinekko'
-    name: manekinekko
+    link: 'https://twitter.com/ManfredSteyer'
+    name: ManfredSteyer
   - icon: github
-    link: 'https://github.com/manekinekko'
-    name: manekinekko
+    link: 'https://github.com/manfredsteyer'
+    name: manfredsteyer
+  - icon: website
+    link: 'http://ANGULARarchitects.io'
+    name: ANGULARarchitects
+
 ---
-Wassim is a member of the Angular team and a Senior Developer Advocate at Microsoft. He is the author of many open source projects such as xlayers.dev and ngx.tools. He is also a GDE for the Angular team, the Google Assistant and the GCP teams at Google. He is a member of the Node.js Foundation. A former member of the Angular Universal core team and part of the current Angular Console core team. He is currently learning about music composition. You can reach out to him on Twitter @manekinekko
+Trainer, consultant and programming architect with focus on Angular. Google Developer Expert (GDE) and Trusted Collaborator in the Angular team who writes for O'Reilly, the German Java Magazine, and windows.developer. Regularly speaks at conferences.

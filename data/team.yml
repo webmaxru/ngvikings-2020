@@ -16,10 +16,23 @@
   subtitle: Organizer
   photo: sherry_list.jpg
   socials:
-    - link: 'https://www.twitter.com/webmaxru'
+    - link: 'https://www.facebook.com/sherry.list.a'
+      name: Facebook
+    - link: 'https://twitter.com/sherrrylst'
       name: Twitter
-    - link: 'https://github.com/webmaxru'
+    - link: 'https://github.com/sazimi/'
       name: Github
-    - link: 'https://www.linkedin.com/in/webmax/'
-      name: Linkedin
   key: sherry_list
+
+- title: Banafsheh Rahnama
+  type: contributors
+  subtitle: Graphic designer
+  photo: banafsheh_rahnama.jpg
+  socials:
+    - link: 'https://www.facebook.com/sherry.list.a'
+      name: Facebook
+    - link: 'https://twitter.com/sherrrylst'
+      name: Twitter
+    - link: 'https://github.com/sazimi/'
+      name: Github
+  key: banafsheh_rahnama

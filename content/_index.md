@@ -35,17 +35,14 @@ Always having Angular team members, Google Developer Experts, and legendary inte
 
 {{% home-speakers %}}
 
-<!--
 ## Featured Speakers
 
-{{< button-link label="Submit a presentation"
-                url="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
-                icon="cfp" >}}
+
 {{< button-link label="See all speakers"
                 url="./speakers"
                 icon="right" >}}
 
--->
+
 {{% /home-speakers %}}
 
 <!-- ... -->

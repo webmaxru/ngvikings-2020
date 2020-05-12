@@ -17,4 +17,4 @@ ngVikings is a non-profit, non-commercial, 100% community-driven event comprised
 
 <!-- ... -->
 
-{{< teams types="core=Core Team" >}}
+{{< teams types="core=Core Team,contributors=Contributors" >}}
