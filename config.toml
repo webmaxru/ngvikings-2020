@@ -51,10 +51,6 @@ unsafe= true
     weight = 1
     languageName = "gb"
 
-[languages.fr]
-    weight = 2
-    languageName = "fr"
-
 
 [taxonomies]
   tag = "tags"

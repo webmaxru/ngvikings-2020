@@ -56,13 +56,13 @@
   }
 }
 
-.partners-group.partner-platinium ul li {
-  height: var(--partner-platinum-height);
+.partners-group.partner-sponsors ul li {
+  height: var(--partner-sponsors-height);
   flex-basis: 320px;
 }
 
-.partners-group.partner-gold ul li, .partners-group.partner-startup ul li {
-  height: var(--partner-gold-height);
+.partners-group.partner-communities ul li, .partners-group.partner-organizers ul li {
+  height: var(--partner-communities-height);
   flex-basis: 200px;
 }
 
@@ -101,9 +101,9 @@
 }
 
 
-.partners-group.partner-platinium .fancy {
+.partners-group.partner-sponsors .fancy {
   font-size: 1.5em;
-  color: var(--color-platium);
+  color: var(--color-sponsors);
 
   span:before, span:after {
     border-bottom: 1px solid currentColor;
@@ -111,9 +111,9 @@
   }
 }
 
-.partners-group.partner-gold .fancy {
+.partners-group.partner-communities .fancy {
   font-size: 1.33em;
-  color: var(--color-gold);
+  color: var(--color-communities);
 
   span:before, span:after {
     top: 20%;

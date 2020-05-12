@@ -12,7 +12,7 @@ We are very excited and happy about this decision! Thank you all wonderful vikin
 
 Stay tuned! 🚀
 
-{{< centered-img src="/images/album/62148190_2394916503930920_3639667423931531264_o.jpg" alt="ngVikings" width="800" >}}
+{{< centered-img src="/images/album/2019/62148190_2394916503930920_3639667423931531264_o.jpg" alt="ngVikings" width="800" >}}
 
 ## What's next?
 

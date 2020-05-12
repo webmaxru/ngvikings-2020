@@ -1,9 +1,9 @@
 ---
 title: Sessions
 
-#menu:
-#  main:
-#    weight: 30
+menu:
+  main:
+    weight: 30
 
 talkType: "nop"
 ---

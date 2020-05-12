@@ -15,10 +15,7 @@ const inputOptions = {
     }),
     uglify({sourcemap: false})
   ],
-  external: [
-    'firebase',
-    'firebase/firestore'
-  ],
+  external: [],
   onwarn(warning) {
     logger.warn(warning.message, warning);
   }

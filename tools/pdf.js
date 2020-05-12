@@ -10,7 +10,6 @@ const logger = Logger.getLogger('pdf');
 // Configuration
 const outputs = {
   'schedule/index.html': 'public/schedule/schedule-en.pdf',
-  'fr/schedule/index.html': 'public/schedule/schedule-fr.pdf',
 };
 const serverConf = {
   port: 8765,

@@ -10,7 +10,7 @@
     "build:styles": "node tools/styles.js",
     "build:scripts": "node tools/scripts.js",
     "build:site": "hugo",
-    "build:service-worker": "node tools/workbox.js",
+    "skip-build:service-worker": "node tools/workbox.js",
     "build:minify": "node tools/minify.js",
     "skip-build:pdf": "node tools/pdf.js",
     "build": "run-s build:*"
@@ -21,7 +21,6 @@
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "cssnano": "^4.1.10",
-    "firebase-tools": "^7.15.0",
     "glob": "^7.1.6",
     "html-minifier": "^4.0.0",
     "node-sass": "^4.13.1",

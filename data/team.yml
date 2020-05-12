@@ -1,6 +1,6 @@
 - title: Maxim Salnikov
-  type: code
-  subtitle: Tech Support
+  type: core
+  subtitle: Organizer
   photo: maxim_salnikov.jpg
   socials:
     - link: 'https://www.twitter.com/webmaxru'
@@ -10,3 +10,16 @@
     - link: 'https://www.linkedin.com/in/webmax/'
       name: Linkedin
   key: maxim_salnikov
+
+- title: Sherry List
+  type: core
+  subtitle: Organizer
+  photo: sherry_list.jpg
+  socials:
+    - link: 'https://www.twitter.com/webmaxru'
+      name: Twitter
+    - link: 'https://github.com/webmaxru'
+      name: Github
+    - link: 'https://www.linkedin.com/in/webmax/'
+      name: Linkedin
+  key: sherry_list
