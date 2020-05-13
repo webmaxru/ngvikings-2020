@@ -39,7 +39,7 @@ googleAnalytics = "UA-7105068-12"
 [[menu.main]]
     identifier = "ng-girls"
     name = "ng-Girls"
-    url = "https://ng-girls.org/"
+    url = "https://ng-girls.org/ngVikings-2020/"
     weight = 190
     external = true
 
